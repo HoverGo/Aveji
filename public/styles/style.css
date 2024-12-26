@@ -1,0 +1,58 @@
+a, p, h1, h2, h3 {
+    color: #212529;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    width: 1376px;
+    margin: 0 auto;
+}
+
+/* HEADER BLOCK */
+.header {
+    margin-top: 12px;
+}
+
+.logo {
+    width: 70px;
+    height: 74.38px;
+}
+
+
+/* NAVIGATION */
+.nav_header {
+    width: 100%;
+    display: flex;
+}
+
+.nav_header ul li {
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+.nav_header ul li:first-child {
+    margin-top: 0;
+}
+
+.nav_header ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+.nav_header ul {
+    margin: 0;
+}
+
+.nav_header a {
+    font-size: 18px;
+}
+
+.nav_header nav {
+    margin: 0 207px 0 auto;
+}
