@@ -9,7 +9,6 @@ a {
 
 
 .container {
-    display: flex;
     width: 1376px;
     margin: 0 auto;
 }
@@ -55,4 +54,42 @@ a {
 
 .nav_header nav {
     margin: 0 207px 0 auto;
+}
+
+
+
+/* MAIN BLOCK */
+
+
+
+/* FOOTER BLOCK */
+
+.nav_footer {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+}
+
+.nav_footer .footer_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav_footer .footer_copy {
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.nav_footer .policy {
+    margin-top: auto;
+}
+
+.nav_footer .social {
+    margin-top: auto;
+    display: flex;
+}
+
+.nav_footer .social .vk_footer {
+    margin-right: 40px;
 }
