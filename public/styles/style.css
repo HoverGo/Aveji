@@ -3,7 +3,9 @@ a, p, h1, h2, h3 {
 
 }
 
-a {
+a, h1, h2, p {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 
@@ -11,6 +13,26 @@ a {
 .container {
     width: 1376px;
     margin: 0 auto;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+  
+.top-right {
+    top: 0;
+    right: 0;
+}
+  
+.bottom-left {
+    bottom: 0;
+    left: 0;
+ }
+  
+.bottom-right {
+    bottom: 0;
+    right: 0;
 }
 
 /* HEADER BLOCK */
@@ -60,6 +82,34 @@ a {
 
 /* MAIN BLOCK */
 
+/* FIRST TITLE SCREEN */
+.title_screen {
+    height: 1107px;
+    margin-top: 40px;
+}
+
+.title_text_block {
+    width: 794px;
+    height: 374px;
+}
+
+.title_text_block h1 {
+    display: inline-block;
+    font-size: 72px;
+    height: 258px;
+}
+
+.title_text_block h2 {
+    display: inline-block;
+    font-size: 20px;
+    width: 445px;
+    height: 84px;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+
+
 
 
 /* FOOTER BLOCK */
@@ -74,6 +124,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 .nav_footer .footer_copy {
@@ -83,11 +134,13 @@ a {
 
 .nav_footer .policy {
     margin-top: auto;
+    font-size: 16px;
 }
 
 .nav_footer .social {
     margin-top: auto;
     display: flex;
+    font-size: 18px;
 }
 
 .nav_footer .social .vk_footer {
