@@ -188,7 +188,7 @@ a, h1, h2, p {
     width: 146px;
 }
 
-.right_info_block .lower_block h1 {
+.right_info_block .lower_block h2 {
     font-family: Helvetica, sans-serif;
     font-style: regular;
     font-weight: normal;
@@ -205,7 +205,7 @@ a, h1, h2, p {
 
 /* ABOUT WORK THIRD BLOCK */
 
-.about_work {
+.about_work_screen {
     height: 980px;
     margin-top: 121px;
 }
