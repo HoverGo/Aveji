@@ -9,6 +9,27 @@ a, h1, h2, p {
     text-decoration: none;
 }
 
+h1, h2 {
+    font-family: Helvetica, sans-serif;
+    font-style: regular;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-style: regular;
+    font-weight: normal;
+    font-size: 16px;
+}
+
 
 .container {
     width: 1376px;
@@ -86,7 +107,6 @@ a, h1, h2, p {
 }
 
 .title_text_block h1 {
-    font-family: Helvetica, sans-serif;
     font-style: regular;
     font-weight: normal;
     display: inline-block;
@@ -96,7 +116,6 @@ a, h1, h2, p {
 }
 
 .title_text_block h2 {
-    font-family: roboto, sans-serif;
     display: inline-block;
     font-size: 20px;
     width: 445px;
@@ -107,7 +126,6 @@ a, h1, h2, p {
 }
 
 .order_project {
-    font-family: roboto, sans-serif;
     font-size: 18px;
     grid-column: 2;
     grid-row: 1;
@@ -156,7 +174,6 @@ a, h1, h2, p {
 
 .left_info_block h1 {
     width: 562px;
-    font-family: Helvetica, sans-serif;
     font-style: regular;
     font-weight: normal;
     font-size: 48px;
@@ -188,13 +205,6 @@ a, h1, h2, p {
     width: 146px;
 }
 
-.right_info_block .lower_block h2 {
-    font-family: Helvetica, sans-serif;
-    font-style: regular;
-    font-weight: normal;
-    font-size: 36px;
-}
-
 .right_info_block .lower_block li {
     list-style-type: none;
     font-family: Roboto, sans-serif;
@@ -206,16 +216,61 @@ a, h1, h2, p {
 /* ABOUT WORK THIRD BLOCK */
 
 .about_work_screen {
+    display: flex;
+    justify-content: space-between;
     height: 980px;
     margin-top: 121px;
 }
 
-.left_about_block {
-    width: 48%;
+.right_about_block .alg_text p {
+    width: 325px;
+    height: 44px;
+    line-height: 1.4;
+    padding-top: 10px;
 }
 
-.right_about_block {
-    width: 52%;
+.right_about_block .right_lower_block {
+    margin-top: 20px;
+    width: 678px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.right_about_block .right_lower_block ul li {
+    list-style-type: none;
+    margin: 24px 0;
+    padding-left: 0;
+}
+
+.right_about_block .right_lower_block ul {
+    padding-left: 0;
+}
+
+.right_about_block .right_lower_block .one_about {
+    min-height: 144px;
+    max-height: 166px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.right_about_block .left_one_about {
+    width: 50%;
+}
+
+.right_about_block .right_one_about {
+    line-height: 1.4;
+    width: 329px;
+}
+
+/* PROJECTS FOURTH BLOCK */
+
+.projects_screen {
+    height: 1278px;
+    margin-top: 120px;
 }
 
 /* FOOTER BLOCK */
