@@ -381,7 +381,47 @@ p {
 .order_form_screen {
     margin-top: 120px;
     height: 566px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.order_form_screen .left_form {
+    width: 40%;
+}
+
+.order_form_screen .left_form {
+    width: 60%;
+}
+
+.order_form_screen .right_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order_form_screen .right_form .upper_form_block p {
+    margin-top: 32px;
+}
+
+.order_form_screen .right_form .lower_form_block {
+    margin-top: 72px;
+}
+
+.order_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order_form label {
+    margin: 16px 0;
+}
+
+.order_form input {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: black;
+    outline: none;
+}
+
 
 /* FOOTER BLOCK */
 
