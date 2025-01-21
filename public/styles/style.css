@@ -335,6 +335,54 @@ p {
     margin-top: 120px;
 }
 
+.reviews {
+    margin-top: 32px;
+    height: 327px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews .review {
+    width: 445px;
+    height: 327px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews .review img {
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.reviews .review h3 {
+    font-family: Helvetica, sans-serif;
+    font-style: regular;
+    font-size: 18px;
+}
+
+.reviews .review p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.reviews .review .review_text {
+    margin-top: 20px;
+    width: 365px;
+    height: 155px;
+}
+
+/* ORDER FORM SIXTH SCREEN */
+
+.order_form_screen {
+    margin-top: 120px;
+    height: 566px;
+}
+
 /* FOOTER BLOCK */
 
 .nav_footer {
