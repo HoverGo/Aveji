@@ -30,6 +30,13 @@ p {
     font-size: 16px;
 }
 
+input,
+input:active,
+input:hover,
+input:focus {
+    outline: none;
+    border: none;
+}
 
 .container {
     width: 1376px;
@@ -412,16 +419,51 @@ p {
 }
 
 .order_form label {
-    margin: 16px 0;
+    width: 562px;
+    height: 31px;
 }
 
 .order_form input {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: black;
-    outline: none;
+    margin-bottom: 16px;
+    width: 562px;
+    height: 31px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
 }
 
+.order_form input::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.order_form .button {
+    margin-top: 8px;
+    width: 176px;
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #212529;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.order_form .button:hover {
+    color: #212529;
+    background-color: #ffffff;
+}
+
+.download_mobile {
+    margin-top: 40px;
+}
+
+.download_mobile img {
+    width: 121px;
+    height: 36px;
+    margin-right: 8px;
+}
 
 /* FOOTER BLOCK */
 
