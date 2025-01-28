@@ -4,7 +4,7 @@ import re
 
 
 class StatementSchemaAdd(BaseSchema):
-    name: int
+    name: str
     email: EmailStr
     phone: str
 
